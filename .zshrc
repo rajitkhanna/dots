@@ -89,6 +89,7 @@ export CPPFLAGS="-I/usr/local/opt/readline/include"
 
 
 . "$HOME/.local/bin/env"
+. "$HOME/.cargo/env"
  
 # ----- Yazi -----
 function y() {
