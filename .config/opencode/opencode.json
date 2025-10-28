@@ -1,0 +1,21 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "mcp": {
+    "context7": {
+      "type": "remote",
+      "url": "https://mcp.context7.com/mcp",
+      "headers": {
+        "CONTEXT7_API_KEY": "ctx7sk-115c60af-93d5-45a7-b261-5a2f48a3b1ca"
+      },
+      "enabled": true
+    },
+    "package-search": {
+      "type": "remote",
+      "url": "https://mcp.trychroma.com/package-search/v1",
+      "headers": {
+        "x-chroma-token": "ck-AjfkLDiYpaBXhLKAEMJ7Rq1dVJZ3nCADexSjobcr9JYh"
+      },
+      "enabled": true
+    }
+  }
+}
