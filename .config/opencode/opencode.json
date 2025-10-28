@@ -17,5 +17,15 @@
       },
       "enabled": true
     }
+  },
+  "instructions": ["CLAUDE.md", ".cursor/rules/*.md"],
+  "formatter": {
+    "prettier": {
+      "command": ["bunx", "prettier", "--write", "$FILE"],
+      "environment": {
+        "NODE_ENV": "development"
+      },
+      "extensions": [".js", ".ts", ".jsx", ".tsx"]
+    }
   }
 }
