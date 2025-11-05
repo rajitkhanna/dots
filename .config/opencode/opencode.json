@@ -18,7 +18,11 @@
       "enabled": true
     }
   },
-  "instructions": ["CLAUDE.md", ".cursor/rules/*.md"],
+  "instructions": [
+    "apps/*/AGENTS.md",
+    "apps/*/src/**/AGENTS.md",
+    "packages/*/AGENTS.md"
+  ],
   "formatter": {
     "prettier": {
       "command": ["bunx", "prettier", "--write", "$FILE"],
