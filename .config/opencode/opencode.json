@@ -16,6 +16,10 @@
         "x-chroma-token": "ck-AjfkLDiYpaBXhLKAEMJ7Rq1dVJZ3nCADexSjobcr9JYh"
       },
       "enabled": true
+    },
+    "gh_grep": {
+      "type": "remote",
+      "url": "https://mcp.grep.app"
     }
   },
   "instructions": [
